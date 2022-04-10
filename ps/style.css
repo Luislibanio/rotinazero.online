@@ -1,0 +1,105 @@
+@font-face {
+	font-family: Gotham Rounded;
+	src: url("font.otf") format("opentype");
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+	font-family: Gotham Rounded;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background: url("fundo.png") no-repeat fixed center;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+}
+
+.container {
+	width: 700px;
+	max-width: 90%;
+}
+
+.black {
+	background-color: black;
+	padding: 10px;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 0 10px 2px;
+}
+
+.answer {
+	display: grid;
+	grid-template-columns: repeat(1, auto);
+	gap: 10px;
+}
+
+.btn {
+	border-radius: 10px;
+	padding: 5px 10px;
+	font-size: 30px;
+	background-color: #f7ce6a;
+	outline: none;
+	color: black;
+	text-decoration: none;
+}
+
+.black h1 {
+	color: yellow;
+}
+
+.black p {
+	font-size: 18px;
+	color: white;
+}
+.a-btn {
+      text-decoration: none;
+      -webkit-font-smoothing: antialiased;
+      margin: 0;
+      border: 0; 
+      font: inherit; 
+      vertical-align: baseline;
+      color: #2e82bc; 
+      outline: 0; 
+      line-height: 1; 
+      text-align: center; 
+      position:relative!important; display: inline-block!important;
+      border-style: solid; 
+      width: 100%; padding-left: 0!important; padding-right: 0!important; 
+      margin-bottom: 10px; 
+      padding: 22px 44px; border-color: #ff5535; border-width: 0px; 
+      border-radius: 6px; 
+      background: linear-gradient(to bottom, #4CC9F0 0%, #7209B7 100%); 
+      box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.5); 
+      text-decoration: none!important;
+    }
+    .a-btn:hover {
+      background: linear-gradient(to bottom, #3D0E61 0%, #7209B7 100%);
+     } 
+    .span-btn {
+      text-decoration: none;
+      -webkit-font-smoothing: antialiased; 
+      text-align: center;
+      margin: 0; 
+      border: 0; 
+      font: inherit;
+      vertical-align: baseline;
+      display: block; 
+      position: relative; 
+      z-index: 1; 
+      padding: 0 15px; 
+      white-space: normal; 
+      font-size: 21px;
+      color: #ffffff; 
+      font-weight: bold; 
+      text-shadow: #000000 0px 1px 0px;
+      text-decoration: none;
+    }
